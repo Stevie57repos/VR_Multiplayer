@@ -1,6 +1,6 @@
 # Unity VR Multiplayer - Quest 2
 
- Simple Unity VR Multiplayer with PUN
+Simple Unity VR Multiplayer with PUN.
 
 The goal of this project was to build a basic Multiplayer experience in Unity for VR on the Quest 2 through utilizing Photon PUN 2.  
 
