@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 285431bbc6920ae498ee71a1833d9b1a, type: 3}
+  m_Name: Avatar Selection SO
+  m_EditorClassIdentifier: 
+  avatarPrefabList:
+  - {fileID: 3516711525164757781, guid: 7aebbfdab524dfc46be5f604aec8fef9, type: 3}
+  - {fileID: 5332605373267546195, guid: a2a8b4064c0bee94f98c85578b107753, type: 3}
