@@ -24,10 +24,8 @@ public class NerfGunController : MonoBehaviour
         Ray shotDirection = new Ray(_shotOrigin.position, (_shotOrigin.forward * _gunRange - _shotOrigin.position));
         if (Physics.SphereCast(shotDirection, 0.3f, out var hit))
         {
-            print($"shot fired");
             if (hit.transform.GetComponent<TargetController>())
             {
-                print($"target hit");
                 hit.transform.GetComponent<TargetController>().Destroyed();
             }
         }
