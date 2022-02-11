@@ -58,17 +58,13 @@ public class NetworkedGrabbing : MonoBehaviourPunCallbacks, IPunOwnershipCallbac
     public void StartNetworkGrabbing()
     {
         _rigidBody.isKinematic = true;
-        // changing the layer to InHand to prevent other players from taking this object
         var layer = GetComponent<XRGrabInteractable>().interactionLayers = 8;
-        
-        //print($"{GetComponent<XRGrabInteractable>().interactionLayers.ToString()}");
     }
 
     [PunRPC]
     public void StopNetworkGrabbing()
     {
         _rigidBody.isKinematic = false;
-        // changing the layer back
         GetComponent<XRGrabInteractable>().interactionLayers = 7;
     }
 }
